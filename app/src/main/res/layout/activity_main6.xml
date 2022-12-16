@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <EditText
+        android:id="@+id/kodGir"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/text_arka_plan"
+        android:ems="10"
+        android:hint="@string/kodGir"
+        android:maxLength="6"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <EditText
+        android:background="@drawable/text_arka_plan"
+        android:id="@+id/noGir"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:maxLength="2"
+        android:hint="@string/noGir"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/kodGir"
+        app:layout_constraintStart_toStartOf="@+id/kodGir"
+        app:layout_constraintTop_toBottomOf="@+id/kodGir"
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints="" />
+
+    <EditText
+        android:background="@drawable/text_arka_plan"
+        android:id="@+id/adetGir"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/adetGir"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/noGir"
+        app:layout_constraintStart_toStartOf="@+id/noGir"
+        app:layout_constraintTop_toBottomOf="@+id/noGir"
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/yeniAyakkabi"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/yeniAyakkabi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/adetGir"
+        app:layout_constraintStart_toStartOf="@+id/adetGir"
+        app:layout_constraintTop_toBottomOf="@+id/adetGir"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
