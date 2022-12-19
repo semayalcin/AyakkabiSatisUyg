@@ -1,5 +1,6 @@
 package com.semayalcin.ayakkabisatisuyg
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.text.InputFilter
@@ -12,6 +13,7 @@ class MainActivity3 : AppCompatActivity() {
 
     private lateinit var db: DataBase
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
@@ -23,6 +25,7 @@ class MainActivity3 : AppCompatActivity() {
         val fiyatgir = findViewById<EditText>(R.id.fiyatgir)
         val no = findViewById<EditText>(R.id.no)
         val adetgir = findViewById<EditText>(R.id.adetgir)
+        val geri = findViewById<Button>(R.id.geri2)
         val madetgir = findViewById<EditText>(R.id.madetgir)
         val ekle = findViewById<Button>(R.id.ekle)
 
@@ -52,14 +55,17 @@ class MainActivity3 : AppCompatActivity() {
                 val result = db.insertData(data)
                 if(result > -1){
                     Toast.makeText(this, "Ekleme yapıldı.", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
-                    finish()
                 }
                 else{
                     Toast.makeText(this, "Ekleme başarısız.", Toast.LENGTH_SHORT).show()
                 }
             }
+        }
+
+        geri.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

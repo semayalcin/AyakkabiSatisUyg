@@ -26,6 +26,23 @@
         app:layout_constraintTop_toBottomOf="@+id/adetgir"
         app:layout_constraintVertical_bias="0.164" />
 
+    <Button
+        android:id="@+id/geri2"
+        android:layout_width="78dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/geri"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ekle"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/madetgir"
+        app:layout_constraintVertical_bias="1.0" />
+
     <EditText
         android:id="@+id/fiyatgir"
         android:layout_width="300dp"

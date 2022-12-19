@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val guncelle = findViewById<Button>(R.id.guncelle)
         val yeni = findViewById<Button>(R.id.yeni)
         val saticiEkle = findViewById<Button>(R.id.saticiEkle)
+        val ciro = findViewById<Button>(R.id.ciro)
 
         val lenght = 6
         kodNo.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(lenght))
@@ -72,6 +73,12 @@ class MainActivity : AppCompatActivity() {
         }
         saticiEkle.setOnClickListener {
             val intent = Intent(this, MainActivity7::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        ciro.setOnClickListener {
+            val intent = Intent(this, MainActivity8::class.java)
             startActivity(intent)
             finish()
         }

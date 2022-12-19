@@ -13,13 +13,33 @@ A
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+i
+9app/src/main/java/com/semayalcin/ayakkabisatisuyg/Data.kt,4\a\4ab35a105d6b405f568186639a83fa8507ffb82d
+r
+Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity4.kt,3\5\35b5c166b9ca12b6178af19a32478a8218b4e0af
+r
+Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity8.kt,e\d\ed74d1fbbbd86f25bf30b869da99cca76856933d
+j
+:app/src/main/java/com/semayalcin/ayakkabisatisuyg/Mstok.kt,5\c\5c4d2fae95cae54b020776d3c3c3970d00a1af68
+i
+9app/src/main/java/com/semayalcin/ayakkabisatisuyg/User.kt,6\c\6c5122684cb0fabb529ae2987dad33cce5626fab
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+q
+Aapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity.kt,7\b\7b7b7533e7bbb9316eacf748dc496cf0566e8a5e
 r
 Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity2.kt,2\8\28edb0417d3e058b9534f6645e5a7d4b275c1016
 r
-Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity5.kt,b\1\b1c0f26e671c2d772928fce98ea07eabbeac3708
+Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity3.kt,a\3\a3e75241dfbee60985e4181cac08b3025638d2e1
 r
-Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity4.kt,3\5\35b5c166b9ca12b6178af19a32478a8218b4e0af
+Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity5.kt,b\1\b1c0f26e671c2d772928fce98ea07eabbeac3708
 r
 Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity6.kt,9\a\9ad052abfadd67b9b2244a0e9fabf35a647df2e8
 r
 Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity7.kt,9\6\9610cd732e60dfa6cd4808a2ed872ff88b30d109
+k
+;app/src/main/java/com/semayalcin/ayakkabisatisuyg/Satici.kt,3\b\3b288f9d28916fc5168965ad10a8343affedddd3
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+m
+=app/src/main/java/com/semayalcin/ayakkabisatisuyg/DataBase.kt,6\0\608e2098bbe0f5977a49989fdb84e584f1bf6d45

@@ -7,6 +7,25 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/ciro"
+        android:layout_width="124dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/orange"
+        android:hint="@string/ciro"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/kodNo"
+        app:layout_constraintEnd_toStartOf="@+id/saticiEkle"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="@+id/kodNo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
         android:id="@+id/saticiEkle"
         android:layout_width="124dp"
         android:layout_height="56dp"

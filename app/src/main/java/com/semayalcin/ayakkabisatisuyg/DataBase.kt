@@ -60,6 +60,26 @@ class DataBase(context: Context) :
         return userList
     }
 
+    @SuppressLint("Range")
+    fun readciro(): MutableList<Satici>{
+        val saticiList = mutableListOf<Satici>()
+        val db = this.readableDatabase
+        val cursor = db.rawQuery("select * from satici", null)
+        if(cursor.moveToFirst()){
+            do {
+                val satici = Satici()
+                satici.saticiId = cursor.getInt(cursor.getColumnIndex("satis_danismani_id"))
+                satici.saticiCiro = cursor.getInt(cursor.getColumnIndex("satis_danismani_ciro"))
+                saticiList.add(satici)
+            }while (cursor.moveToNext())
+        }
+        cursor.close()
+        db.close()
+        return saticiList
+    }
+
+
+
 
     @SuppressLint("Range")
     fun readStok(id: Int, beden:String): Int {

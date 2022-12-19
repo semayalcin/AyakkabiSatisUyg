@@ -1,5 +1,6 @@
 package com.semayalcin.ayakkabisatisuyg
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,6 +11,7 @@ import android.widget.Toast
 
 class MainActivity7 : AppCompatActivity() {
     private lateinit var db : DataBase
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main7)
@@ -17,6 +19,7 @@ class MainActivity7 : AppCompatActivity() {
         db = DataBase(applicationContext)
         val satici = findViewById<EditText>(R.id.satici)
         val ekle = findViewById<Button>(R.id.saticiekle)
+        val geri = findViewById<Button>(R.id.geri6)
         val lenght = 5
         satici.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(lenght))
 
@@ -30,14 +33,16 @@ class MainActivity7 : AppCompatActivity() {
 
                 if(result > -1){
                     Toast.makeText(this, "Ekleme yapıldı.", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
-                    finish()
                 }
                 else{
                     Toast.makeText(this, "Ekleme başarısız.", Toast.LENGTH_SHORT).show()
                 }
             }
+        }
+        geri.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

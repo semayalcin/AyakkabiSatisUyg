@@ -20,6 +20,7 @@ class MainActivity6 : AppCompatActivity() {
         val noGir = findViewById<EditText>(R.id.noGir)
         val adetGir = findViewById<EditText>(R.id.adetGir)
         val yeniAyakkabi = findViewById<Button>(R.id.yeniAyakkabi)
+        val geri = findViewById<Button>(R.id.geri4)
 
         val lenghtkod = 6
         kodGir.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(lenghtkod))
@@ -43,13 +44,15 @@ class MainActivity6 : AppCompatActivity() {
                 )
                 if (result) {
                     Toast.makeText(this, "Ekleme yapıldı.", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
-                    finish()
                 } else {
                     Toast.makeText(this, "Ekleme başarısız.", Toast.LENGTH_SHORT).show()
                 }
             }
+        }
+        geri.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

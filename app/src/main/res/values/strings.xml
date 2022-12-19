@@ -9,8 +9,11 @@
     <string name="no42">42</string>
     <string name="no43">43</string>
     <string name="no44">44</string>
+    <string name="saticiCirolari">SATICI CİROLARI</string>
+    <string name="ciro">SATICI CİROLARI</string>
     <string name="fiyatEtiketi">Fiyat Etiketi</string>
     <string name="saticiKodu">SATICI KODUNU GİRİNİZ</string>
+    <string name="geri">Geri</string>
     <string name="merkez_depo">Merkez Depo</string>
     <string name="yeni">AYAKKABI EKLE</string>
     <string name="primEkle">EKLE</string>

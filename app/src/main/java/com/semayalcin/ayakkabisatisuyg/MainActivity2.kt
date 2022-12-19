@@ -1,5 +1,6 @@
 package com.semayalcin.ayakkabisatisuyg
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +12,7 @@ import android.widget.Toast
 class MainActivity2 : AppCompatActivity() {
     private lateinit var db: DataBase
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
@@ -19,6 +21,7 @@ class MainActivity2 : AppCompatActivity() {
 
         val ayakkabiadi = findViewById<TextView>(R.id.ayakkabi_adi)
         val fiyat = findViewById<Button>(R.id.fiyat)
+        val geri = findViewById<Button>(R.id.geri)
         val merkezdepo = findViewById<Button>(R.id.merkez_depo)
         val no40 = findViewById<Button>(R.id.no40)
         val no41 = findViewById<Button>(R.id.no41)
@@ -175,9 +178,10 @@ class MainActivity2 : AppCompatActivity() {
             }
         }
 
-
-
-
-
+        geri.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
