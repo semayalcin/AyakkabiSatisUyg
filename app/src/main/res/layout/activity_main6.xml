@@ -6,6 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity6">
 
+    <Button
+        android:id="@+id/MstokEkle"
+        android:layout_width="142dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/MstokEkle"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/adetGir"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/stokEkle"
+        app:layout_constraintTop_toBottomOf="@+id/adetGir"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
     <EditText
         android:id="@+id/kodGir"
         android:layout_width="300dp"
@@ -29,8 +47,8 @@
 
     <Button
         android:id="@+id/geri4"
-        android:layout_width="78dp"
-        android:layout_height="42dp"
+        android:layout_width="83dp"
+        android:layout_height="43dp"
         android:layout_marginStart="24dp"
         android:layout_marginBottom="28dp"
         android:backgroundTint="@color/white"
@@ -39,10 +57,10 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/yeniAyakkabi"
+        app:layout_constraintEnd_toEndOf="@+id/stokEkle"
         app:layout_constraintHorizontal_bias="0.174"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/yeniAyakkabi"
+        app:layout_constraintTop_toBottomOf="@+id/stokEkle"
         app:layout_constraintVertical_bias="0.976"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -88,17 +106,18 @@
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/yeniAyakkabi"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:id="@+id/stokEkle"
+        android:layout_width="142dp"
+        android:layout_height="65dp"
         android:layout_marginTop="56dp"
         android:backgroundTint="@color/orange"
-        android:text="@string/yeniAyakkabi"
+        android:text="@string/stokEkle"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/adetGir"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/adetGir"
         app:layout_constraintTop_toBottomOf="@+id/adetGir"
         app:layout_constraintVertical_bias="0.0"

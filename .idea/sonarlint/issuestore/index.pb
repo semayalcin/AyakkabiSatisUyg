@@ -9,10 +9,6 @@ j
 :app/src/main/java/com/semayalcin/ayakkabisatisuyg/Mstok.kt,5\c\5c4d2fae95cae54b020776d3c3c3970d00a1af68
 i
 9app/src/main/java/com/semayalcin/ayakkabisatisuyg/User.kt,6\c\6c5122684cb0fabb529ae2987dad33cce5626fab
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
-q
-Aapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity.kt,7\b\7b7b7533e7bbb9316eacf748dc496cf0566e8a5e
 r
 Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity2.kt,2\8\28edb0417d3e058b9534f6645e5a7d4b275c1016
 r
@@ -20,8 +16,12 @@ Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity3.kt,a\3\a3e7524
 r
 Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity5.kt,b\1\b1c0f26e671c2d772928fce98ea07eabbeac3708
 r
-Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity6.kt,9\a\9ad052abfadd67b9b2244a0e9fabf35a647df2e8
-r
 Bapp/src/main/java/com/semayalcin/ayakkabisatisuyg/MainActivity7.kt,9\6\9610cd732e60dfa6cd4808a2ed872ff88b30d109
 k
 ;app/src/main/java/com/semayalcin/ayakkabisatisuyg/Satici.kt,3\b\3b288f9d28916fc5168965ad10a8343affedddd3
+F
+app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e

@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/ciro"
-        android:layout_width="124dp"
-        android:layout_height="56dp"
+        android:layout_width="129dp"
+        android:layout_height="65dp"
         android:backgroundTint="@color/orange"
         android:hint="@string/ciro"
         android:paddingTop="5dp"
@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/saticiEkle"
-        android:layout_width="124dp"
-        android:layout_height="56dp"
+        android:layout_width="129dp"
+        android:layout_height="65dp"
         android:backgroundTint="@color/orange"
         android:hint="@string/saticiEkle"
         android:paddingTop="5dp"
@@ -65,8 +65,8 @@
 
     <Button
         android:id="@+id/guncelle"
-        android:layout_width="124dp"
-        android:layout_height="56dp"
+        android:layout_width="129dp"
+        android:layout_height="65dp"
         android:layout_marginTop="144dp"
         android:backgroundTint="@color/orange"
         android:paddingTop="5dp"
@@ -106,8 +106,8 @@
 
     <Button
         android:id="@+id/yeni"
-        android:layout_width="124dp"
-        android:layout_height="56dp"
+        android:layout_width="129dp"
+        android:layout_height="65dp"
         android:layout_marginTop="144dp"
         android:backgroundTint="@color/orange"
         android:paddingTop="5dp"

@@ -62,7 +62,6 @@ class MainActivity : AppCompatActivity() {
         }
         yeni.setOnClickListener {
             val intent = Intent(this, MainActivity3::class.java)
-            //db.deleteAllData()
             startActivity(intent)
             finish()
         }

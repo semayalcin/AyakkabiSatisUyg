@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/geri5"
-        android:layout_width="78dp"
-        android:layout_height="42dp"
+        android:layout_width="83dp"
+        android:layout_height="43dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/white"
         android:text="@string/geri"

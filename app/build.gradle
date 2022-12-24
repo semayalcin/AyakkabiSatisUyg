@@ -1,7 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'org.sonarqube'
 }
+
 
 android {
     namespace 'com.semayalcin.ayakkabisatisuyg'
@@ -42,4 +44,16 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "AyakkabiSatisUyg"
+        property "sonar.projectKey", "com.semayalcin.ayakkabisatisuyg"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.language", "kotlin"
+        property "sonar.sources", "src/main/"
+        property "sonar.login", "admin"
+        property "sonar.password", "root"
+    }
 }

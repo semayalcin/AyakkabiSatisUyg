@@ -33,14 +33,8 @@ class DataBase(context: Context) :
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
-        /*db.execSQL("drop table if exists ayakkabilar")
-        onCreate(db)*/
     }
-    /*fun deleteAllData(){
-        val sqliteDB = this.writableDatabase
-        sqliteDB.delete("ayakkabilar",null,null)
-        sqliteDB.close()
-    }*/
+
 
     @SuppressLint("Range")
     fun read(id:Int): MutableList<User>{
@@ -143,6 +137,12 @@ class DataBase(context: Context) :
     fun update(id: Int, no: String, adet: Int): Boolean {
         val db = this.readableDatabase
         db.execSQL("UPDATE ayakkabilar SET magaza_stok = magaza_stok+ $adet  WHERE ayakkabi_id = $id  AND ayakkabi_bedeni = $no")
+        return true
+    }
+
+    fun mUpdate(id: Int, no: String, adet: Int): Boolean {
+        val db = this.readableDatabase
+        db.execSQL("UPDATE ayakkabilar SET merkez_magaza_stok = merkez_magaza_stok+ $adet  WHERE ayakkabi_id = $id  AND ayakkabi_bedeni = $no")
         return true
     }
 
