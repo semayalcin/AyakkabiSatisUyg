@@ -21,7 +21,5 @@ k
 ;app/src/main/java/com/semayalcin/ayakkabisatisuyg/Satici.kt,3\b\3b288f9d28916fc5168965ad10a8343affedddd3
 F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
-X
-(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
